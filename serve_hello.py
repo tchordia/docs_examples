@@ -14,7 +14,7 @@ app = FastAPI()
 class HelloWorld:
     @app.get("/")
     def hello(self):
-        return msg
+        return "asdf"
     
     @app.get("/healthcheck")
     def healthcheck(self):
