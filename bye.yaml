@@ -1,0 +1,5 @@
+entrypoint: python bye.py
+runtime_env:
+  working_dir: .
+  upload_path: s3://tchordia-test-re/runtime-env
+healthcheck_url: "/healthcheck"

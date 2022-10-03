@@ -7,7 +7,7 @@ msg = os.getenv("SERVE_RESPONSE_MESSAGE", "Diff service!")
 
 serve.start(detached=True)
 
-app = FastAPI()
+app = FastAPI() 
 
 @serve.deployment(route_prefix="/")
 @serve.ingress(app)
