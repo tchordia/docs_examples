@@ -1,4 +1,4 @@
-entrypoint: python hi.py
+entrypoint: python hey.py
 runtime_env:
   working_dir: https://github.com/bbqiu/docs_examples/archive/refs/heads/main.zip
 healthcheck_url: "/healthcheck"
