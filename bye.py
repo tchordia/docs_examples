@@ -9,7 +9,7 @@ class MyModelDeployment:
         self._msg = msg
 
     def __call__(self, request):
-        return {"result": self._msg}
+        return {"result": "Bye"}
 
 
 # 2: Deploy the model.
