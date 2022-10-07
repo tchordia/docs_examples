@@ -2,3 +2,4 @@ entrypoint: python bye.py
 runtime_env:
   working_dir: https://github.com/bbqiu/docs_examples/archive/refs/heads/main.zip
 healthcheck_url: "/healthcheck"
+compute_config: bbqiu-test-small
